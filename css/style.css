@@ -1,0 +1,336 @@
+/* IMPORT RESET */
+@import url("reset.css");
+
+/* IMPORT 12 COLUMN RESPONSIVE GS */
+@import url("responsive.gs.12col.css");
+
+
+/*	EXAMPLE STYLES */
+body {
+	font-family: sans-serif;
+	color: white;
+}
+@font-face {
+    font-family: 'gardenscregular';
+    src: url('../fonts/gardensc.eot');
+    src: url('../fonts/gardensc.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gardensc.woff') format('woff'),
+         url('../fonts/gardensc.ttf') format('truetype'),
+         url('../fonts/gardensc.svg#gardenscregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'myriadprolight';
+    src: url('../fonts/myriadprolight.eot');
+    src: url('../fonts/myriadprolight.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/myriadprolight.woff') format('woff'),
+         url('../fonts/myriadprolight.ttf') format('truetype'),
+         url('../fonts/myriadprolight.svg#myriadprolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+h1,h2,h3,h4,h5{
+	font-family: 'gardenscregular';	
+	line-height: 1;
+}
+h1 {
+	color: #ee1e3d;
+	font-size: 36px;
+	text-transform: uppercase;
+	margin-top: 25px;
+}
+h2 {
+	color: #ee1e3d;
+	font-size: 30px;
+}
+h3 {
+	color: #ee1e3d;
+	font-size: 46px;
+	margin-bottom: 70px;
+}
+p {
+	color: #333333;
+	line-height: 1;
+	font:16px/22px 'myriadprolight';
+	margin-top: 30px;
+}
+strong{
+	font-weight: bold;
+}
+hr{
+	background: #fff url(../images/line.jpg) center 0 no-repeat;
+	background-size: 100%;
+	height: 49px;
+	border: none;
+	width: 100%;
+	margin-top: 75px;
+	display: block;
+	margin-bottom: 125px;
+}
+body{
+	background: #fff url(../images/top-gradient.jpg) 0 0 repeat-x;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.main-bg{
+	background: transparent url(../images/top-bg.jpg) center top no-repeat;
+}
+.top-fruit-left {
+	position: absolute;
+	left: 0;
+	background: transparent url(../images/top-fruit-left.png) 0 0 no-repeat;
+	width: 178px;
+	height: 205px;
+}
+.top-fruit-right {
+	position: absolute;
+	right: 0;
+	background: transparent url(../images/top-fruit-right.png) 0 0 no-repeat;
+	width: 193px;
+	height: 179px;
+}
+header {
+	text-align: center;
+	margin-bottom: 110px;
+	line-height: 1;
+	padding: 45px 10px 0;
+}
+.logo{
+	background: transparent url(../images/logo.png) center 0 no-repeat;
+	width: 258px;
+	height: 77px;
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: top;
+	*display: inline;
+	*zoom: 1;
+}
+header nav{
+	margin-top: 37px;
+}
+header nav.left{
+	float: left;
+}
+header nav a{
+	margin-left: 50px;
+}
+header nav a:first-child{
+	margin-left: 0;
+}
+header nav.right{
+	float: right;
+}
+header nav a{
+	font-family: 'gardenscregular';
+	font-size: 20px;
+	color: #3557a6;
+	text-decoration: none;
+}
+header nav a:hover,
+header nav .active{
+	color: #ee1e3d;
+	text-decoration: underline;
+}
+article {
+	line-height: 20em;
+	text-align: center;
+}
+
+aside {
+	line-height: 20em;
+	text-align: center;
+}
+.discount-red, .discount-blue{
+	text-align: center;
+	height: 300px;	
+}
+.discount header{
+	width: 456px;	
+	height: 72px;	
+	font: 24px/22px 'myriadprolight';
+	text-align: left;
+}
+.discount.left {
+	text-align: left;
+}
+.discount.right {
+	text-align: right;
+}
+.discount-red{
+	border: 2px solid #d83d27;
+	width: 460px;	
+}
+.discount-red header{
+	background: #fff url(../images/discount-header-red.jpg) 0 0 no-repeat;
+	margin-bottom: 20px;
+	margin-top: 0;
+	padding: 20px 25px 0 25px;
+}
+.discount-blue {
+	border: 2px solid #3458a6;
+	width: 460px;
+	float: right;
+}
+.discount-blue header{
+	background: #fff url(../images/discount-header-blue.jpg) 0 0 no-repeat;
+	margin-bottom: 0px;
+	margin-top: 0;
+	padding: 20px 25px 0 25px;	
+	font-family: 'gardenscregular';
+}
+.main-container-wrapper{
+	background: transparent url(../images/circle.png) center 40px no-repeat;
+	padding: 0 10px;
+}
+.section-1{
+	height: 850px;
+}
+.section-1__text{
+	margin-top: 110px;
+}
+.section-1__text p{
+	color: #f8f9e2;
+}
+.section-1__text strong{
+	color: #fff;
+}
+.section-2 img{
+	margin-top: 85px;
+}
+.section__footer-wrapper{
+	background: #fff url(../images/bottom-gradient.jpg) 0 bottom repeat-x;
+	padding: 0 10px;
+}
+.section__footer-wrapper_map {
+	height: 460px;
+}
+.scrollup {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+}
+footer {
+	text-align: center;
+	background: #fff url(../images/bottom-bg.jpg) center bottom no-repeat;
+	height: 201px;
+}
+.social-links{
+	text-align: center;
+	margin-top: 120px;
+}
+.social-links a{
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: top;
+	*display: inline;
+	*zoom: 1;
+	width: 58px;
+	height: 58px;
+	background: url(../images/sprite.png);
+	overflow: hidden;
+	margin: 0 10px;
+}
+.social-links .icon-ig{
+	background-position: 0 0;
+}
+.social-links .icon-fb{
+	background-position: -58px 0;
+}
+.social-links .icon-vk{
+	background-position: -116px 0;
+}
+.social-links .icon-ok{
+	background-position: -174px 0;
+}
+@media ( max-width : 1400px ) {
+	.top-fruit-right, .top-fruit-left{
+		display: none;
+	}
+}
+@media ( max-width : 950px ) {
+	.discount-blue, .discount-red{
+		width: 370px;
+	}
+	.discount header{
+		width: 366px;
+		font: 20px/18px 'myriadprolight';
+	}
+	.section-1__text {
+		margin-top: 100px;
+	}
+	.section-1__text p{
+		font: 12px/22px 'myriadprolight';
+	}
+	.section-2 img{
+		margin-top: 40px;
+	}
+}
+@media ( max-width : 768px ) {
+	.discount-blue{
+		float: left;
+	}
+	.main-container-wrapper{
+		background: none;
+	}
+	.section-1{
+		height: auto;
+		margin-bottom: 20px;
+	}
+	.section-1__text p, .section-1__text p strong{
+		color: #333333;
+	}	
+	header nav a{
+		margin-left: 25px;
+	}
+	header nav a:first-child{
+		margin-left: 0;
+	}
+	h3 {
+		margin-bottom: 20px;
+		font-size: 35px;
+	}
+	hr{
+		margin: 10px 0;
+	}
+}
+@media ( max-width : 700px ) {
+	header nav.right {
+		float: left;
+		margin-left: 50px;
+	}
+	.logo{width: 100%;}
+		.section-1__text p{
+		font-size: 16px;
+	}
+	.section-1__text p{
+		margin-top: 10px;
+	}
+}
+@media ( max-width : 490px ) {
+	header nav{
+		margin: 0;
+		float: none;
+		width: 100%;
+	}
+	header nav.right{
+		margin-left: 0;
+	}
+	header nav a{
+		width: 100%;
+		display: block;
+		margin: 0;
+	}
+	header {
+		margin-bottom: 30px;
+	}
+	h1{font-size: 26px;}
+	h2{font-size: 20px;}
+	.section-1__text{
+		margin-top: 20px;
+	}
+}
+
+ 
